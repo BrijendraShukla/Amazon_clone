@@ -1,0 +1,74 @@
+.signinPage{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signinPage_img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signinPage_form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.signinPage_form > h1{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.signinPage_form > form > h5 {
+    margin-bottom: 5px;
+}
+
+.signinPage_form > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-radius: 3px;
+    border: 1px solid rgb(105, 104, 104);
+}
+
+.signinPage_form > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+.signinPage_button{
+    background: #f0c14b;
+    border-radius: 3px;
+    width: 100%;
+    height: 28px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+.signinPage_form > h5{
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 460;
+}
+
+.signinPage_signinButton{
+    margin-left: 3px;
+    font-size: 12px;
+    font-weight: 650;
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.signinPage_form > p{
+    font-weight: 400;
+    font-size: 10.8;
+}
