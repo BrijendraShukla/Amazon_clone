@@ -10,7 +10,7 @@ function Subtotal() {
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
     });
-    const [{ basket }, dispatch] = useStateValue();
+    const [{ basket }] = useStateValue();
     return <div className="subtotal">
         <p>Subtotal ({basket?.length} items): <strong> {formatter.format(Number(getBasketTotal(basket)))}</strong></p>
         <small className="subtotal_gift"><input type="checkbox" />This order contains a gift</small>
