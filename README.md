@@ -1,6 +1,10 @@
 # Amazon Clone
 
 This is a simple Amazon clone built with React.js and CSS. It includes features like a login and register page, as well as a checkout page that displays selected items in the cart.
+You can have a look 
+https://brijendrashukla.github.io/Amazon_clone/
+
+#Note- use desktop viewing if you are seeing this on phone.
 
 ## Features
 
